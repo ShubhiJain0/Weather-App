@@ -1,0 +1,61 @@
+.weather-card{
+  background: #d5def5;
+  width: 70%;
+  max-width: 600px;
+  max-height: 720px;
+  min-height: 200px;
+  border-radius: 30px;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin: 50px auto;
+}
+body{
+  background: #6643b5;
+}
+.upper-inner-div{
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.upper-card h1{
+  font-size: 40px;
+}
+
+.upper-card input{
+  height: 30px;
+  outline: none;
+  border: transparent;
+  border-radius: 25px;
+  width: 40%;
+  font-size: large;
+  padding: 5px;
+}
+
+.upper-card button{
+  height: 35px;
+  padding: 5px;
+  width: 90px;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  font-size: large;
+}
+
+.upper-card label{
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.description{
+  display: flex;
+  justify-content: space-evenly
+}
+#date{
+  font-style: italic;
+}
+p{
+  font-size: 23px;
+}
