@@ -13,7 +13,7 @@ const Weather = () => {
   }
   async function fetchWeatherData(){
     const response = await fetch(
-      `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&`
+      `https://api.openweathermap.org/data/2.5/`
     );
     const result = await response.json();
     // console.log(result);
